@@ -25,7 +25,7 @@ p {
 }
 
 .half-width img,
-.menu-box img {
+.menu-box-width img {
     width: 100%;
 }
 
@@ -65,13 +65,27 @@ p {
     margin-bottom: 5%;
 }
 
-.menu-box {
+.menu-box-width {
     width: 30%;
     margin-left: 4%;
     margin-right: 4%;
     margin-top: 10px;
+}
+
+.box-shadow {
     padding: 20px;
     padding-bottom: 30px;
     box-shadow: 10px 10px 30px grey;
     border-radius: 40px;
+}
+
+.lower-section {
+    width: 90%;
+    margin-left: 50px;
+}
+
+.lower-section h1,
+.lower-section p {
+    text-align: left;
+    margin-left: 40px;
 }
