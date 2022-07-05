@@ -44,6 +44,10 @@ p {
     color: white;
 }
 
+.link-button:hover {
+    color: rgb(199, 165, 54);
+}
+
 .top-section {
     background-image: url(../images/bg1.jpg);
     background-repeat: no-repeat;
