@@ -14,7 +14,7 @@ p {
 
 .flexible-container {
     display: flex;
-    margin-bottom: 10%;
+    margin-bottom: 7%;
 }
 
 .half-width {
@@ -24,8 +24,9 @@ p {
     margin-top: 10px;
 }
 
-.half-width img {
-    width: 90%;
+.half-width img,
+.menu-box img {
+    width: 100%;
 }
 
 .blue-color {
@@ -54,4 +55,23 @@ p {
     background-repeat: no-repeat;
     color: grey;
     font-weight: 400;
+}
+
+.menu-section {
+    text-align: center;
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 5%;
+}
+
+.menu-box {
+    width: 30%;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 10px;
+    padding: 20px;
+    padding-bottom: 30px;
+    box-shadow: 10px 10px 30px grey;
+    border-radius: 40px;
 }
